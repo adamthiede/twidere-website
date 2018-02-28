@@ -1,0 +1,45 @@
+html{
+	max-width:1024px;
+	font-family:sans-serif;
+	margin:auto;
+	padding:5px;
+}
+
+body{
+	background-color:#79d;
+}
+
+.main {
+	background-color:#fff;
+	margin:5px 0px 0px 0px;
+	padding:1px 10px 10px 10px;
+	border-radius:0px;
+}
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #555;
+	/*border-radius:5px;*/
+}
+
+.navli {
+    float: left;
+}
+
+.navli.on{
+	background-color:#222;
+}
+
+.navli a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navli a:hover {
+    background-color: #999;
+}
