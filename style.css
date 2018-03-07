@@ -27,6 +27,11 @@ body{
 
 .navli {
     float: left;
+	vertical-align: middle;
+}
+
+.navli img{
+	max-height:100%;
 }
 
 .navli.on{
