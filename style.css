@@ -23,6 +23,7 @@ body{
 	width: auto;
     overflow-x: auto;
     white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
 }
 .screenshots img{
 	height:300pt;
