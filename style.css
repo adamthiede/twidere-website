@@ -6,9 +6,9 @@ html{
 }
 
 body{
-
-	background-image:url("assets/banner-v.jpg");
-	background-attachment:fixed;
+	background-color:#3F53B7;
+	/*background-image:url("assets/banner-v.jpg");
+	background-attachment:fixed;*/
 }
 
 .main {
@@ -36,15 +36,19 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #555;
+    background-color: #222;
 	/*border-radius:5px;*/
 	height:48px;
+	border-radius:3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .navul img{
 	padding:0px;
 	max-height:100%;
 	max-width:100%;
+	display:block;
+	margin:auto;
 }
 
 .navli {
